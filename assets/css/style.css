@@ -5,16 +5,15 @@
 }
 
 :root {
-    /* Variables */
     --main-color: #e2a97c;
     --accent-color: #84cdca;
 
-    /* Background Colours */
     --secondary-bg: #f5f5f5;
     --tertiary-bg: #595959;
         
     --main-fontcolor: #666666;
     --second-fontcolor: #fff;
+    --tertiary-fontcolor: #4a4a4a;
 }
 
 body {
@@ -70,6 +69,7 @@ ul {
 
 /* navbar styling */
 nav {
+    z-index: 100;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -140,7 +140,11 @@ nav ul li a:hover {
 .about-info {    
     text-align: left;
     margin-left: 5vw;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
+}
+
+.about-info p {
+    margin-bottom: 7vh;
 }
 
 .about-info a {
@@ -226,5 +230,32 @@ textarea {
 }
 
 .contact-form button:hover {
-    background-color: var(--secondary-bg);
+    color: var(--main-fontcolor);
+    filter: brightness(75%);
+}
+
+/* footer styling */
+footer {
+    text-align: center;
+    background-color: var(--tertiary-bg);
+    border-top: 3px var(--tertiary-fontcolor) solid;
+    padding: 25px 0;
+}
+
+footer img {
+    background: var(--main-fontcolor);
+    border-radius: 50%;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+footer img:hover {
+    filter: brightness(75%);   
+}
+
+footer p {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--tertiary-fontcolor);
 }
