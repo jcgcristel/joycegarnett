@@ -115,7 +115,7 @@ nav ul li a:hover {
 
 .section-content {
     padding-bottom: 10vh;
-    margin: 0 20vw;
+    margin: 0 10vw;
 }
 
 .about p {
@@ -139,7 +139,8 @@ nav ul li a:hover {
 
 .about-info {    
     text-align: left;
-    margin-left: 100px;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
 }
 
 .about-info a {
@@ -157,12 +158,32 @@ nav ul li a:hover {
     background-color: var(--accent-color);
     color: var(--second-fontcolor);
     padding: 0 25px;
-    margin: 2px 2px;
+    margin: 2px;
 }
 
 /* project styling */
 .projects {
     background-color: var(--secondary-bg);
+}
+
+.project {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+}
+
+.project a img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 25px;
+    margin-bottom: 25px;
+ 
+}
+
+.project a img:hover {
+    filter: brightness(50%);   
 }
 
 /* contact styling */
