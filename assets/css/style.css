@@ -8,6 +8,93 @@
     /* Variables */
     --main-color: #e2a97c;
     --accent-color: #84cdca;
+
+    /* Background Colours */
+    --secondary-bg: #f5f5f5;
+    --tertiary-bg: #595959;
         
-    color: #666666;
+    --main-fontcolor: #666666;
+    --second-fontcolor: #fff;
+}
+
+body {
+    color: var(--main-fontcolor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+/* home styling */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    height: 100vh;
+    font-size: 46px;    
+}
+
+.home p span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.home a {
+    padding: 5px 50px;
+    font-size: 24px;
+    color: var(--main-fontcolor);
+    
+    border: 2px var(--accent-color) solid;
+    border-radius: 10px;
+}
+
+.home a:hover {
+    background: var(--accent-color);
+    color: var(--second-fontcolor);
+}
+
+/* navbar styling */
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: right;
+    list-style: none;
+    text-decoration: none;
+
+    padding: 5px 20% ;
+    font-size: 24px;
+
+    background-color: var(--main-color);
+}
+
+nav ul li {
+    padding: 2px 10px;
+    margin: 0 20px;
+    background-color: #84cdca;
+}
+
+/* about styling */
+.about {
+
+}
+
+/* project styling */
+.projects {
+    background-color: var(--secondary-bg);
+
+}
+
+/* contact styling */
+.contact {
+    background-color: var(--tertiary-bg);
+    color: var(--second-fontcolor); 
+
 }
