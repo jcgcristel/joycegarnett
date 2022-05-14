@@ -190,5 +190,41 @@ nav ul li a:hover {
 .contact {
     background-color: var(--tertiary-bg);
     color: var(--second-fontcolor); 
+    font-size: 20px;
+}
 
+.contact p {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    margin: 2px 0;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.contact-form button {
+    display: block;
+    float: right;
+
+    padding: 5px 50px;
+    background-color: var(--accent-color);
+    color: var(--second-fontcolor-);
+    
+    border: 2px var(--accent-color) solid;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-bg);
 }
