@@ -264,8 +264,6 @@ textarea {
     filter: brightness(100%);
 }
 
-<<<<<<< HEAD
-=======
 /* footer styling */
 footer {
     text-align: center;
@@ -293,7 +291,6 @@ footer p {
 }
 
 /* small desktop screens */
->>>>>>> main
 @media screen and (max-width: 980px) {
     .flex-center {
         flex-wrap: wrap;
