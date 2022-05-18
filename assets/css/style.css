@@ -264,6 +264,36 @@ textarea {
     filter: brightness(100%);
 }
 
+<<<<<<< HEAD
+=======
+/* footer styling */
+footer {
+    text-align: center;
+    background-color: var(--tertiary-bg);
+    border-top: 3px var(--tertiary-fontcolor) solid;
+    padding: 25px 0;
+}
+
+footer img {
+    background: var(--main-fontcolor);
+    border-radius: 50%;
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+footer img:hover {
+    filter: brightness(75%);   
+}
+
+footer p {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--tertiary-fontcolor);
+}
+
+/* small desktop screens */
+>>>>>>> main
 @media screen and (max-width: 980px) {
     .flex-center {
         flex-wrap: wrap;
